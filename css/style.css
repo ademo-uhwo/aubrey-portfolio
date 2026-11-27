@@ -9,11 +9,16 @@ Bootstrap Variables Override
     --secondary-color: #f9d583;
 
     /* Replace the main body font from your UI Kit */
-    --bs-font-sans-serif: 'Fredoka', verdana, sans-serif;
-    --bs-body-font: 'Nunito', verdana, sans-serif;
+    --bs-font-serif: 'Zen Antique Soft', times, serif;
+    --bs-body-font: 'Alan Sans', verdana, sans-serif;
 
     /* Optional: Replace gradient from your UI Kit */
     --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+
+    /* customs colors */
+    --light-blue: #B8D7E8;
+    --pink: #F1CEEB;
+
 }
 
 /********************************
@@ -74,6 +79,7 @@ h6 {
     letter-spacing: 0.0rem;
     /* Optional: Adjust font-weight to all headings */
     font-weight: 800;
+    font-family: var(--bs-font-serif);
 }
 
 h2 {
@@ -335,4 +341,16 @@ svg {
         padding: 5em 0 0 0;
 
     }
+}
+
+.projects h2 {
+    background-color: var(--light-blue);
+    padding: 0.5em;
+    color: #333;
+
+}
+
+.pink {
+    background-color: var(--pink);
+    padding: 0.3em;
 }
